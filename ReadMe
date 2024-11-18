@@ -1,0 +1,29 @@
+readme_content = """
+# SF Salary Analysis: Employee Details Exporter
+
+## Overview
+This project processes salary data from San Francisco city employees and allows the export of individual employee details into a CSV file. The exported data is compressed into a ZIP file for easy sharing and storage. An R script is provided to unzip the ZIP file and display the content.
+
+---
+
+## Project Structure
+The project contains the following files:
+- `sf-salary.ipynb`: The Jupyter Notebook containing Python code for data processing and exporting employee details.
+- `Total.csv`: The dataset containing employee salary information (not included; must be downloaded separately).
+- `Employee Profile.zip`: The ZIP file created after running the Python script, containing the exported employee details.
+- `Employee_Profile/`: The folder created by unzipping the ZIP file (generated after running the R script).
+- `unzip_and_display.R`: The R script to unzip the folder and display the employee details.
+- `README.md`: This documentation file with instructions on setting up and running the project.
+
+---
+
+## Prerequisites
+### Tools Required:
+1. **Python 3.7+**: To run the Jupyter Notebook.
+2. **Jupyter Notebook**: For running Python code interactively.
+3. **R and Rscript**: For running the R script.
+
+### Python Libraries:
+Install the required Python libraries using the following command:
+```bash
+pip install pandas
